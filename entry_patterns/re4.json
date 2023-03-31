@@ -1,0 +1,36 @@
+{
+    "$description": [
+        "ignore_entries: entry name patterns whose text should be displayed in a language.",
+        "one_line_entries: entry name patterns whose text should be displayed in a line.",
+        "three_lines_entries: entry name patterns whose text should be displayed in three lines at most."
+    ],
+    "ignore_entries": [
+        ".*_Inventory_Treasure_Price$",
+        ".*_InGameShop_Sell_Price$",
+        ".*_Sys_Shop_header_03$",
+        ".*_Subtitle_Name_.*",
+        ".*_QuestCompleteHint$",
+        ".*_QuestReward$",
+        ".*_QuestReward_01$",
+        ".*_QuestProgress$",
+        ".*_QuestLocation$",
+        ".*_QuestUnknown$",
+        ".*_BGuide.*_Control.*"
+    ],
+    "one_line_entries": [
+        ".*_Tips_Title_.*",
+        "^(?=.*_Sys_)(?!.*Caption)(?!.*CPShop_Lock).*$",
+        "^Dev1_Term.*",
+        ".*_NAME_.*",
+        ".*_Name_.*",
+        ".*_RadioLog_.*_00$",
+        ".*File_.*_00$",
+        ".*_StatusEffect.*"
+    ],
+    "three_lines_entries": [
+        ".*_Main.*_cp.*",
+        ".*_Main_cs.*",
+        ".*_Main_mv.*",
+        ".*_Main_Speech.*"
+    ]
+}

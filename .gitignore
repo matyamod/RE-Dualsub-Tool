@@ -1,0 +1,31 @@
+# python
+python
+*__pycache__
+
+# RE engine
+*.msg.*
+*.gui.*
+*.fslt.*
+*.pak
+*.list
+*.ini
+*.bt
+
+# MSG converter
+src/HexTool.py
+src/REMSG.py
+src/REMSGUtil.py
+src/REWString.py
+
+# images
+*.png
+*.jpg
+
+# others
+*.exe
+*.bat
+*.json
+*.lnk
+*.txt
+!src/*.bat
+!entry_patterns/*.json
